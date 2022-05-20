@@ -29,10 +29,21 @@ color: #FFFFFF;
 .input{
  display: flex;
  align-items: center;
- width: 30rem ;
+ width: 40rem ;
  background: #504B4A;
  border-radius: 10px;
  padding: .5rem;
+}
+#location{
+  display: flex;
+  justify-content: flex-start;
+  color:white;
+  width: 15.36px;
+height: 18.27px;
+  border: none;
+  width: inherit;
+  background: transparent;
+
 }
 
 input{
@@ -48,4 +59,86 @@ input{
 input::placeholder{
   color:#CFCFCF;
   ;
+}
+.call{
+  display:flex;
+  margin-left: 3rem;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+border-radius: 15px;
+cursor:pointer;
+}
+.text{
+display:flex;
+align-items: center;
+margin-top:25px;
+margin-left:15px ;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+color: #CFCFCF;
+padding-left: 10px;
+}
+#ptag{
+  width: 136px;
+height: 30px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+.login{
+  margin-left:15rem;
+  display: flex;
+  align-items: center;
+  width: 101px;
+height: 21px;
+cursor: pointer;
+}
+.login p{
+  margin-left: 1rem;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+.karzina{
+  margin-left:6rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 249px;
+  height: 52px;
+  left: 1221px;
+  top: 23px;
+  
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+}
+.karzina button{
+  border: none;
+  width: inherit;
+  background: transparent;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+cursor: pointer;
+
+color: #FFFFFF;
+
 }

@@ -1,6 +1,9 @@
 import React from 'react'
 import './index.css';
 import search from '../src/Search.svg'
+import Calling from '../src/Calling.svg'
+import Profile from '../src/Profile.svg'
+
 
 function App() {
   return (
@@ -9,11 +12,23 @@ function App() {
         <div className='logo'>LOGO</div>
         <div className="input">
           <input type="search" placeholder='Введите адрес доставки'></input>
-          <img src={search} alt=''/>
+
+          <img src={search} alt=''/>   </div>
+        <div className="call">
+        <img src={Calling} alt='' />
+          <div className='text'>
+          <p>Контакты:
+          <p id='ptag'>+7 (917) 510-57-59</p>
+          </p>
+          </div>
         </div>
-        <div className="call"></div>
-        <div className="login"></div>
-        <div className="karzina"></div>
+        <div className="login">
+          <img src={Profile}alt='' />
+          <p>Войти</p>
+        </div>
+        <div className="karzina">
+          <button>Korzina |</button>
+        </div>
       </div>
 
       
